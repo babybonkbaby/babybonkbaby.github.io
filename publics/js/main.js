@@ -8,6 +8,6 @@ const activeMenu = (element) => {
 // COPPY
 function copy(val) {
     navigator.clipboard.writeText(val);
-    toastr.success('Copy thành công');
+    toastr.success('Copy success');
 }
 
